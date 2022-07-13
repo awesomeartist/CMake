@@ -1,0 +1,3 @@
+C:\Code-lib\cmake-3.23.0\bin\cmake.exe -E rm -f CMakeFiles\testmake.dir/objects.a
+C:\Code-lib\mingw64\bin\ar.exe qc CMakeFiles\testmake.dir/objects.a @CMakeFiles\testmake.dir\objects1.rsp
+C:\Code-lib\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\testmake.dir/objects.a -Wl,--no-whole-archive -o ..\bin\testmake.exe -Wl,--out-implib,..\bin\libtestmake.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\testmake.dir\linklibs.rsp

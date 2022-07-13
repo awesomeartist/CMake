@@ -1,0 +1,7 @@
+project(TestMake)
+aux_source_directory(src SRC_SUB)
+aux_source_directory(. SRC_CUR)
+add_executable(testmake ${SRC_SUB} ${SRC_CUR})
+add_definitions("-Wall -g")
+include_directories(inc)
+SET(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
