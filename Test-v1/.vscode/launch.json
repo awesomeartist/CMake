@@ -9,14 +9,14 @@
             "type": "cppdbg",
             "request": "launch",
             //"program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
-            "program": "${workspaceFolder}/build/build.exe",//指向调试文件
+            "program": "${workspaceFolder}/build/build.exe",        // 指向调试文件
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",//当前工作文件夹
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "C:/Code-lib\\mingw64\\bin\\gdb.exe",//调试器路径
+            "miDebuggerPath": "C:/Code-lib\\mingw64\\bin\\gdb.exe", // 调试器路径
             "setupCommands": [
                 {
                     "description": "为 gdb 启用整齐打印",
