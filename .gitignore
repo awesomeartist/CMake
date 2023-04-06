@@ -1,2 +1,5 @@
 build
-reference
+z-reference
+bin
+*.exe
+.vscode

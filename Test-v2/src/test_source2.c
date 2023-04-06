@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include "test_include.h"
 
-void my_source2(void)
-{   
+void my_source2(void) {   
     printf("=====================\n");
     printf("__func__:%s\n", __func__);
     printf("__FILE__:%s\n", __FILE__);
