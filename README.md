@@ -1,2 +1,2 @@
 # C-Make
-This repository is made to learn CMake.
+学习 CMake 使用方法的一些记录
